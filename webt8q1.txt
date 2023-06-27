@@ -1,0 +1,11 @@
+<html>
+    <head><titile></titile></head>
+    <body>
+       <script>
+        var r =parseFloat(window.prompt("Enter radius:"));
+       
+        document.write("Area:"+(Math.PI*r*r).toFixed(2));
+       </script>
+    </body>
+
+</html>
