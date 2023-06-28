@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    
+</head>
+<body>
+    <div style="border: 2px solid black;">
+        <center> <h1>Application Form</h1>
+            <h2> Position:<span style="color: red;">Software Engineer</span></h2>
+         </center> 
+        
+    </div>
+    
+    <form  name="g" method="post" action="new.php">
+     <table border="0" >   
+                                                         
+     <tr>
+            <td> Name :</td>
+            <td><input type="text" name="un"><br></td> <br>
+    
+     </tr>
+
+     
+     <tr>
+             <td> Birthday :</td>
+             <td> <input type="date"></td><br>
+    </tr>
+
+        <tr>
+              <td> Phone Number :</td>
+              <td> <input type="text"></td><br>
+        </tr>
+    <tr>
+      <td>Gender :</td>
+      <td><input type="radio" name="gen" value="M">Male</td>
+      <td><input type="radio" name="gen" value="F">Female</td>
+    </tr>
+   
+       <tr>
+      <td> Highest Level of Education :</td>
+      <td>
+    <select name="qualification" id="qualification">
+      <option value="m">Masters Degree</option>
+      <option value="b">Bachelors Degree</option>
+      <option value="s">Student</option>
+      <option value="o">O/L</option>
+    </td><br>
+
+     <tr>
+     <td>CV   :<input type="submit" name="log" value="Choose file">  No file choosen</td>
+     </tr>
+
+     <tr >
+      <td><input type="checkbox" name="agree" value="1" > I agree to these <a href="https://www.youtube.com/">Terms and Conditions</a> </td>
+     
+    </tr>
+
+    <tr>
+
+   <td align="center"> <input type="submit" name="log" value="Submit"> 
+     <input type="reset" name="rs" value="Reset">
+    </td>
+
+    </tr>
+   
+
+    
+   
+
+
+
+
+
+
+
+    </table>
+    </form>
+
+
