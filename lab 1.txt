@@ -1,0 +1,10 @@
+<html>
+<head><body bgcolor="green">
+    <center><h1>NSBM Green University</h1>
+    <h2>Siyapath Siya Udanaya</h2>
+    <h3>2023</h3>
+    <img src ="awurudu.jpg"width=200 height=200>
+    </center>
+    </body>
+</head>
+</html>
