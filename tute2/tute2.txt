@@ -1,0 +1,44 @@
+<html>
+<head><title>Nsbm Green University</title>
+<style>
+table,th,td
+{
+border:1px solid black;
+border-collapsed: collapsed;
+}
+</style>
+</head>
+<body>
+<h2>NSBM</h2>
+<table style="width:50%">
+    <tr>
+<th>Subject</th>
+<th>Results</th>
+</tr>
+    <tr>
+<td>Intro</td>
+<td>B</td>
+</tr>
+    <tr> 
+<td>Maths</td>
+<td>A</td>
+</tr>
+    <tr> 
+<td>DBMS</td>
+<td>A</td>
+</tr>
+    <tr>
+ <td>English</td>
+<td>A</td>
+</tr>
+    <tr>
+ <td>Programming</td>
+<td>C</td>
+</tr>
+    <tr> 
+<td>Algo</td>
+<td>B</td>
+</tr>
+</table>
+</body>
+    </html>
