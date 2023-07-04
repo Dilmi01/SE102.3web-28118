@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>tute06q2</title>
+</head>
+<body>
+<script>
+
+alert("This is an Alert");
+
+
+
+</script>
+<button type = "button">Click here</button>
+</body>
+</html>
