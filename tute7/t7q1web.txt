@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>hello</title>
+<script>
+function x()
+{
+ document.bgColor="red";
+}
+function y()
+{
+ document.bgColor="blue";
+}
+function z()
+{
+ document.bgColor="green";
+}
+function p()
+{
+ document.bgColor="white";
+}
+</script>
+</head>
+<body>
+
+<form name="g">
+
+<input type=button name="c" value="click" onmouseover="x()"; onmouseout="p()";>
+<input type=button name="d" value="click" onmouseover="y()"; onmouseout="p()";>
+<input type=button name="e" value="click" onmouseover="z()"; onmouseout="p()";> 
+
+</form>
+<a = onmouseover="x()"; onmouseover="y"();onmouseover="z"();> 
+
+</body>
+</html>
