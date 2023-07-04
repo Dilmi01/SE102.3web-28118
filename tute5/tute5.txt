@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>quotes</title>
+	<style>
+		body{
+			background-image:url("sun.jpg");
+			background-size:cover;
+			baqckground-repeat:no-repeat;
+		    }
+	</style>
+</head>
+<body>
+<center>
+<h1 class="title"><font color="red" size=66>Quotes for Life</font></h1>
+</center>
+<br><br><br><br><br><br><br><br><br>
+<p><center><font color="white" size=99>"You only live once,<br>but if you do it right,<br>once is enough."</font></center></p>
+</body>
+</html>
