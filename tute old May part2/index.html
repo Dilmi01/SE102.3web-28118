@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML tags & CSS</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>div/span tag - controling purpase</h2>
+        <p>hbhubhbf b dfsbhg bcfhuz uh</p>
+    </div>
+    <!-- use for big -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptate, dolorum cupiditate amet natus, sunt,
+        quaerat asperiores quam ratione <span>quas harum delectus. </span>Quae eius, harum dolores laboriosam doloremque
+        dolore fuga.
+    </p>
+    <!-- use for short -->
+    <!-- controling purpase -->
+
+    <h2>unorderd list / orderd list</h2>
+    <!-- unorderd list -->
+    <ul type="square">
+        <li>01 raw</li>
+        <li>02 raw</li>
+        <ul type="circle">
+            <li>02.1 raw</li>
+            <li>02.2 raw</li>
+        </ul>
+        <li>03 raw</li>
+    </ul>
+
+    <!-- orderd list -->
+    <ol type="A" start=01>
+        <li>01 raw</li>
+        <li>02 raw</li>
+        <ol type="I" start="1">
+            <li>02.1 raw</li>
+            <li>02.2 raw</li>
+        </ol>
+        <li>03 raw</li>
+    </ol>
+
+    <!-- Definition List  -->
+    <dl>
+        <dt>Definition List</dt>
+        <dd>hi, 01 raw</dd>
+        <dd>hi, 02 raw</dd>
+        <dd>hi, 03 raw</dd>
+    </dl>
+
+    <!-- Table Tags -->
+    <h2>table tag</h2>
+    <table border="1">
+        <tr height="150" bgcolor="lightgreen">
+            <td width="200">
+                <center>new1</center>
+            </td>
+            <td>
+                <center>new2</center>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="red">new3</td>
+            <td width="200">new4</td>
+        </tr>
+    </table>
+    <br>
+    <br><br>
+    <table border="1">
+        <tr>
+            <th>subject</th>
+            <th>marks</th>
+        </tr>
+        <tr bgcolor="white">
+            <td>Science</td>
+            <td>98</td>
+        </tr>
+        <tr bgcolor="pink">
+            <td>Maths</td>
+            <td>85</td>
+        </tr>
+        <tr bgcolor="white">
+            <td>English</td>
+            <td>75</td>
+        </tr>
+    </table>
+
+    <h2>The thead, tbody, and tfoot elements</h2>
+
+    <table border="1">
+        <caption>Monthly Saving</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Form Tags -->
+    <h2>form tags</h2>
+    <center>
+        <div style="background-color:rgba(73, 228, 12, 0.735);">
+            <div style="width:fit-content; background-color:aqua;">
+                <form method="post" action="new.php">
+                    <table>
+                        <tr>
+                            <td>user name:</td>
+                            <td><input type="text" name="gN"></td>
+                        </tr>
+                        <tr>
+                            <td>password:</td>
+                            <td><input type="password" name="pW"></td>
+                        </tr>
+                        <tr>
+                            <td><br>Gender: <br>
+                                <input type="radio" name="gen" value="M">Male <br>
+                                <input type="radio" name="gen" value="F">Female <br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select Your Country:
+                                <select name="f">
+                                    <option value="0">Select Your Country</option>
+                                    <option value="1">Sri Lanka</option>
+                                    <option value="2">Russia</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input type="submit" name="d" value="click"><input type="reset" value="clear">
+                </form>
+            </div>
+        </div>
+    </center>
+    <br>
+
+    <!-- any much selections -->
+    Gender: <br>
+    <input type="radio" name="gen1" value="M">Male <br>
+    <input type="radio" name="gen2" value="F">Female <br><br>
+
+    <!-- one select -->
+    Gender: <br>
+    <input type="radio" name="gen" value="M">Male <br>
+    <input type="radio" name="gen" value="F">Female <br><br>
+
+    <!-- Check Boxes -->
+    <input type="checkbox" name="che1" id="">check1
+    <br><br>
+
+    <!-- select options -->
+    <select name="f">
+        <option value="0">Select Your Country</option>
+        <option value="1">Sri Lanka</option>
+        <option value="2">Russia</option>
+    </select>
+</body>
+
+</html>
