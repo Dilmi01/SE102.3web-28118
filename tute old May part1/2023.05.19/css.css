@@ -1,0 +1,83 @@
+/*
+CSS
+*** CSS have 04 types:
+    1) default
+    2) inline - in the tag itself
+        <h1 style="background-color: red">hello</h1>
+    3) internal - in the page itself
+        <style>
+        h1
+            {
+                color: red;
+            }
+        </style>
+
+        <script>
+            alert("hello");
+        </script>
+
+    4) external - 
+        <link rel="stylesheet" href="css/style.css">
+        name.js
+        <script src="name.js"></script>
+
+*** powerful css linking is:
+            inline > internal > external
+
+*** powerful css linking is:
+            inline > internal > external
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #666;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    margin-left: 20px;
+    color: #666;
+}
+
+dl {
+    margin-left: 20px;
+    color: #666;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+form {
+    width: fit-content;
+    background-color: aqua;
+    padding: 10px;
+}
